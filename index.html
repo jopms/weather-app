@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Weather Condition</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="location">
+                <h1 id="city">No city avaiable</h1>
+                <hr />
+                <h2 id="country">No country avaiable</h2>
+            </div>
+        </div>
+        <div class="weather-condition">
+            <div class="current-main">
+                <div class="current-icon">
+                    <img src="icons/50d.png" />
+                </div>
+                <div class="current-temperature">
+                    <h3 id="temperature">-</h3>
+                </div>
+            </div>
+
+            <div class="current-description">
+                <h4 id="description">-</h4>
+            </div>
+        </div>
+        <div class="search-wrap">
+            <input type="text" id="search" value="" placeholder="Search a different city" class="search"
+                onkeydown="search(this)" />
+            <button type="button" id="add" onclick="addCityToList()">+</button>
+        </div>
+        <div class="forecast-weather">
+            <div class="day">
+                <div class="text-day1">
+                    <h5 id="d1"></h5>
+                </div>
+
+                <div id="img-forecast" class="img-day1"></div>
+                <div class="forecat-temp">
+                    <div id="min-max-1"></div>
+                </div>
+
+            </div>
+            <div class="day">
+                <div class="text-day2">
+                    <h5 id="d2"></h5>
+                </div>
+                <div id="img-forecast" class="img-day2"></div>
+                <div class="forecat-temp">
+                    <div id="min-max-2"></div>
+                </div>
+            </div>
+            <div class="day">
+                <div class="text-day3">
+                    <h5 id="d3"></h5>
+                </div>
+                <div id="img-forecast" class="img-day3"></div>
+                <div class="forecat-temp">
+                    <div id="min-max-3"></div>
+                </div>
+            </div>
+            <div class="day">
+                <div class="text-day4">
+                    <h5 id="d4"></h5>
+                </div>
+                <div id="img-forecast" class="img-day4"></div>
+                <div class="forecat-temp">
+                    <div id="min-max-4"></div>
+                </div>
+            </div>
+            <div class="day">
+                <div class="text-day5">
+                    <h5 id="d5"></h5>
+                </div>
+                <div id="img-forecast" class="img-day5"></div>
+                <div class="forecat-temp">
+                    <div id="min-max-5"></div>
+                </div>
+            </div>
+            <div class="day">
+                <div class="text-day6">
+                    <h5 id="d6"></h5>
+                </div>
+                <div id="img-forecast" class="img-day6"></div>
+                <div class="forecat-temp">
+                    <div id="min-max-6"></div>
+                </div>
+            </div>
+            <div class="day">
+                <div class="text-day7">
+                    <h5 id="d7"></h5>
+                </div>
+                <div id="img-forecast" class="img-day7"></div>
+                <div class="forecat-temp">
+                    <div id="min-max-7"></div>
+                </div>
+            </div>
+        </div>
+        <div class="list-wrap">
+            <div class="list" id="lt"></div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
