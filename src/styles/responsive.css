@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1280px) {
+  .middle-div {
+    transform: scale(0.9);
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .middle-div {
+    transform: scale(0.8);
+  }
+
+  .current-weather-wrapper {
+    margin-bottom: 2rem;
+  }
+
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .middle-div {
+    transform: scale(0.7);
+  }
+  .current-weather-wrapper {
+    margin-bottom: 2rem;
+  }
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .middle-div {
+    transform: scale(0.6);
+  }
+  .current-weather-wrapper {
+    margin-bottom: 2rem;
+  }
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .middle-div {
+    transform: scale(0.5);
+  }
+  .current-weather-wrapper {
+    margin-bottom: 2rem;
+  }
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .middle-div {
+    transform: scale(0.45);
+  }
+  .current-weather-wrapper {
+    margin-bottom: 2rem;
+  }
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .middle-div {
+    transform: scale(0.45);
+  }
+  .current-weather-wrapper {
+    margin-bottom: 2rem;
+  }
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .middle-div {
+    transform: scale(0.4);
+  }
+  .current-weather-wrapper {
+    margin-bottom: 2rem;
+  }
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .middle-div {
+    transform: scale(0.35);
+  }
+  .current-weather-wrapper {
+    margin-bottom: 2rem;
+  }
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .middle-div {
+    transform: scale(0.3);
+  }
+  .current-weather-wrapper {
+    margin-bottom: 2rem;
+  }
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .middle-div {
+    transform: scale(0.25);
+  }
+  .current-weather-wrapper {
+    margin-bottom: 2rem;
+  }
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .middle-div {
+    transform: scale(0.2);
+  }
+  .current-weather-wrapper {
+    margin-bottom: 2rem;
+  }
+  .search-bar {
+    margin-bottom: 2rem;
+  }
+}
